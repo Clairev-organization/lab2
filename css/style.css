@@ -1,1 +1,54 @@
 
+h1 {
+    /* color */
+    color: #050;
+  }
+  
+  /* rules */
+  label {
+    display: block;
+    font-weight: bold;
+    margin: 0.4rem;
+  }
+  
+  /* button */
+  input[type="submit"],
+  input[type="reset"] {
+    display: block;
+    width: 8rem;
+    margin-top: 1.3rem;
+    margin-right: 0.5rem;
+    margin-left: 0.4rem;
+    background-color: #060606;
+    color: #f6f2ec;
+    cursor: pointer;
+    border: none;
+    padding: 0.3rem 0.6rem;
+  }
+  
+  #dob_inp, #email_inp, #phone_inp {
+    width: 12rem;
+  }
+  
+  /* hover rule */
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    opacity: 0.8;
+  }
+  
+  /* Desktop */
+  @media (min-width: 1025px) {
+    label {
+      width: 8rem;
+      display: inline-block;
+    }
+  
+    input[type="submit"],
+    input[type="reset"] {
+      display: inline;
+    }
+  
+    #dob_inp, #email_inp, #phone_inp {
+      width: 13rem;
+    }
+  }
